@@ -1,0 +1,35 @@
+#top {
+  background: url(./../dist/images/bg-pattern-top.svg);
+}
+
+#bot {
+  background: url(./../dist/images/bg-pattern-bottom.svg);
+}
+
+.card {
+
+  &__upper {}
+
+  &__img {}
+
+  &__pic {}
+
+  &__info {
+
+    h1 {}
+
+    p {}
+  }
+
+  
+  &__line {}
+
+
+  &__lower {
+
+    ul {
+
+      li {}
+    }
+  }
+}

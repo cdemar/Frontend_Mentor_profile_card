@@ -1,0 +1,19 @@
+// Font type
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+// This helps with my main SCSS content
+@import 'utility';
+@import 'variables';
+
+// This is the main SCSS content
+@import 'globals';
+@import 'content';
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+
+  a {
+    color: hsl(228, 45%, 44%);
+  }
+}
