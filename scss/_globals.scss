@@ -5,23 +5,40 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
 }
 
 html {
   font-size: 100%;
-  scroll-behavior: smooth;
 }
 
 body {
-  font-size: $font-size;
-
+  height: 100vh;
   background-color: $dark-cyan;
-  color: $black;
-  min-height: 100vh;
+  color: $dark-grayish-blue;
+  overflow: hidden;
+}
 
-  display: grid;
-  justify-content: center;
-  align-items: self-end;
+.font--400 {
+  font-weight: 400;
+}
+
+.font--700 {
+  font-weight: 700;
+}
+
+.dark--txt {
+  color: $very-dark-desaturated-blue;
+}
+
+.font--lg {
+  font-size: rem(20);
+}
+.font--med {
+  font-size: rem(16);
+}
+.font--sm {
+  font-size: rem(12);
 }
 
 // Visability

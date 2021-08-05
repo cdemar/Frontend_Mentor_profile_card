@@ -1,35 +1,75 @@
-#top {
-  background: url(./../dist/images/bg-pattern-top.svg);
-}
+.top {}
 
-#bot {
-  background: url(./../dist/images/bg-pattern-bottom.svg);
-}
+.bot {}
 
 .card {
+  font-family: $Kumbh-Sans;
+  height: 95vh;
 
-  &__upper {}
-
-  &__img {}
-
-  &__pic {}
+  display: grid;
+  align-items: center;
+  justify-items: center;
 
   &__info {
+    background-color: #fff;
+    width: rem(400);
+    height: rem(420);
+    border-radius: rem(10);
 
-    h1 {}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-    p {}
+    @include breakpoint-down(med) {
+      width: rem(350);
+      height: rem(400);
+    }
+    @include breakpoint-down(sm) {
+      width: rem(330);
+      height: rem(375);
+    }
   }
 
+  &__pattern {
+    width: 100%;
+    border-radius: rem(10) rem(10) 0 0;
+  }
+
+  &__img {
+    border-radius: 50%;
+    border: 6px solid #fff;
+    margin-top: rem(-50);
+  }
+
+  &__bot {
+    width: 100%;
+    text-align: center;
   
-  &__line {}
+    .age {
+      margin-top: 5px;
+    }
 
-
-  &__lower {
-
+    .mid {
+      width: 100%;
+      height: rem(3);
+      background-color: $very-dark-desaturated-blue;
+    }
+      
     ul {
+      font-family: inherit;
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      li {
+        :not(:last-child) {
+        margin-right: rem(50);
+      }
 
-      li {}
+      .txt {
+        letter-spacing: 0.1em;
+      }
+      }
+      
     }
   }
 }
