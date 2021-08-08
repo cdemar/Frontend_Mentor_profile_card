@@ -10,10 +10,12 @@
 @import 'content';
 
 .attribution {
-  text-align: center;
   color: hsl(0, 0%, 0%);
+  margin: -10px 0 0 10px;
+  font-size: 15px;
 
   a {
+    z-index: inherit;
     color: hsl(228, 45%, 44%);
   }
 }

@@ -40,19 +40,3 @@ body {
 .font--sm {
   font-size: rem(12);
 }
-
-// Visability
-
-.hide-for-mobile {
-  // hide for Tablet and Mobile
-  @include breakpoint-down(lg) {
-    display: none;
-  }
-}
-
-.hide-for-desktop {
-  // hide for Desktop view port widths
-  @include breakpoint-up(lg) {
-    display: none;
-  }
-}
