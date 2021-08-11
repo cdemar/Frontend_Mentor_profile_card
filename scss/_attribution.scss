@@ -1,0 +1,30 @@
+// ATTRIBUTION
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: rem(20);
+  background-color: #fff;
+  text-align: center;
+  transform: translateY(100%);
+  transition: .4s;
+
+  &:hover {
+    transform: translateZ(0);
+  }
+
+  &:before {
+    content: '';
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+  }
+
+  a {
+    color: hsl(228, 45%, 44%);
+  }
+}

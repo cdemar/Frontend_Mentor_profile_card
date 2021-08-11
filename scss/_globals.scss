@@ -2,10 +2,9 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
-
+  box-sizing: border-box;
 }
 
 html {
@@ -13,30 +12,13 @@ html {
 }
 
 body {
-  height: 100vh;
+  font-family: $Kumbh-Sans;
   background-color: $dark-cyan;
-  color: $dark-grayish-blue;
+  height: 100vh;
   overflow: hidden;
-}
 
-.font--400 {
-  font-weight: 400;
-}
-
-.font--700 {
-  font-weight: 700;
-}
-
-.dark--txt {
-  color: $very-dark-desaturated-blue;
-}
-
-.font--lg {
-  font-size: rem(20);
-}
-.font--med {
-  font-size: rem(16);
-}
-.font--sm {
-  font-size: rem(12);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }

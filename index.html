@@ -14,49 +14,47 @@
 </head>
 
 <body>
-  <img src="./dist/images/bg-pattern-top.svg" alt="" class="top">
+  <div class="bgImg">
+    <img src="./dist/images/bg-pattern-top.svg" alt="" class="top">
+    <img src="./dist/images/bg-pattern-bottom.svg" alt="" class="bot">
+  </div>
 
   <main class="card">
+    <div class="card__header"></div>
 
-    <div class="card__info">
-      <img src="./dist/images/bg-pattern-card.svg" alt="" class="card__pattern">
+    <div class="card__body">
+      <img src="./dist/images/image-victor.jpg" alt="Victor">
 
-      <img src="./dist/images/image-victor.jpg" alt="Victor" class="card__img">
-
-      <div class="card__bot">
-        <div class="info">
-          <span class="font--700 dark--txt font--lg">Victor Crest</span>
-          <span class="age class__age font--400 font--lg">26</span>
-          <p class="city font--400 font--md">London</p>
-        </div>
-
-        <div class="line"></div>
-
-        <ul>
-          <li>
-            <span class="dark--txt font--700 font--lg">80K</span> <br>
-            <span class="txt font--400 font--sm">Followers</span>
-          </li>
-          <li>
-            <span class="dark--txt font--700 font--lg">803K</span> <br>
-            <span class="txt font--400 font--sm">Likes</span>
-          </li>
-          <li>
-            <span class="dark--txt font--700 font--lg">1.4K</span> <br>
-            <span class="txt font--400 font--sm">Photos</span>
-          </li>
-        </ul>
-      </div>
+      <h1 class="name">Victor Crest
+        <span class="age">26</span>
+      </h1>
+      <p class="city">London</p>
     </div>
 
+    <div class="card__line"></div>
+
+    <div class="card__footer">
+      <div class="item">
+        <h1 class="value">80K</h1>
+        <p class="txt">Followers</p>
+      </div>
+
+      <div class="item">
+        <h1 class="value">803K</h1>
+        <p class="txt">Likes</p>
+      </div>
+
+      <div class="item">
+        <h1 class="value">1.4K</h1>
+        <p class="txt">Photos</p>
+      </div>
+    </div>
   </main>
 
-  <footer class="attribution font--sm">
+  <div class="attribution font--sm">
     <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</p>
     <p>Coded by <a href="#">Cory De Mar</a>.</p>
-  </footer>
-
-  <img src="./dist/images/bg-pattern-bottom.svg" alt="" class="bot">
+  </div>
 </body>
 
 </html>
