@@ -24,12 +24,12 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](/dist/images/screenshot.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/cdemar/Frontend_Mentor_profile_card](https://github.com/cdemar/Frontend_Mentor_profile_card)
+- Live Site URL: [https://cdemar.github.io/Frontend_Mentor_profile_card/](https://cdemar.github.io/Frontend_Mentor_profile_card/)
 
 ## My process
 
@@ -41,17 +41,17 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+It was really interesting to use svg files in the 2 different ways I did. I have used svg's before on persinal projects but never in such a mindful way as I did here and I am really happy with how I did.
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+<body>
+  <div class="bgImg">
+    <img src="./dist/images/bg-pattern-top.svg" alt="" class="top">
+    <img src="./dist/images/bg-pattern-bottom.svg" alt="" class="bot">
+  </div>
+
+  <main class="card">
+    <div class="card__header"></div>
 ```
 
 ### Continued development
