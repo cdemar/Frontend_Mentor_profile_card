@@ -11,6 +11,10 @@
   transform: translateY(100%);
   transition: .4s;
 
+  @include breakpoint-down(med) {
+    transform: translateY(0);
+  }
+
   &:hover {
     transform: translateZ(0);
   }

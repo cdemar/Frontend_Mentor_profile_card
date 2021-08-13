@@ -11,26 +11,29 @@ $browser-context: 16; // Default
   // styles go here
 }
 
-// 375px, 1024px, 1440px
-$breakpoints-up: (
-  "sm": "40em",
-  "med": "64em",
-  "lg": "87.5em");
+// 376px, 1026px, 1441px
 
-// 374px, 1023px, 1439px
+// $breakpoints-up: (
+//   "sm": "39.9375em", 
+//   "med": "63.9375em",
+//   "lg": "87.4375em");
+
+// @mixin breakpoint-up($size){ // When inDesktop view
+//   @media (min-width: map-get($breakpoints-up, $size)){
+//     @content;
+//   }
+// }
+
+
+// 375px, 728px, 1024px, 1250px, 1440px
 $breakpoints-down: (
-  "sm": "39.9375em", 
-  "med": "63.9375em",
-  "lg": "87.4375em");
+  "xsm": "40em",
+  "sm": "45.5em",
+  "med": "64em",
+  "lg": "78.125em",
+  "xlg": "90em");
 
-
-@mixin breakpoint-up($size){ // hide for Desktop view port widths
-  @media (min-width: map-get($breakpoints-up, $size)){
-    @content;
-  }
-}
-
-@mixin breakpoint-down($size){ // hide for Tablet and Mobile
+@mixin breakpoint-down($size){ // When in Tablet and Mobile view
   @media (max-width: map-get($breakpoints-down, $size)){
     @content;
   }

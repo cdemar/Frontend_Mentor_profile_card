@@ -8,11 +8,61 @@
   .top {
     top: rem(-300);
     left: rem(-175);
+
+    @include breakpoint-down(xlg) {
+      top: rem(-360);
+      left: rem(-275);
+    }
+
+    @include breakpoint-down(lg) {
+      top: rem(-440);
+      left: rem(-350);
+    }
+
+    @include breakpoint-down(med) {
+      top: rem(-500);
+      left: rem(-450);
+    }
+
+    @include breakpoint-down(sm) {
+      top: rem(-510);
+      left: rem(-550);
+    }
+
+    @include breakpoint-down(xsm) {
+      top: -360px;
+      left: -275px;
+    }
   }
 
   .bot {
     bottom: rem(-300);
     right: rem(-175);
+
+    @include breakpoint-down(xlg) {
+      bottom: rem(-360);
+      right: rem(-275);
+    }
+
+    @include breakpoint-down(lg) {
+      bottom: rem(-440);
+      right: rem(-350);
+    }
+
+    @include breakpoint-down(med) {
+      bottom: rem(-500);
+      right: rem(-450);
+    }
+
+    @include breakpoint-down(sm) {
+      bottom: rem(-510);
+      right: rem(-550);
+    }
+
+    @include breakpoint-down(xsm) {
+      bottom: rem(-460);
+      right: rem(-275);
+    }
   }
 }
 

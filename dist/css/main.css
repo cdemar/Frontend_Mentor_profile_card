@@ -39,9 +39,79 @@ body {
   left: -10.9375rem;
 }
 
+@media (max-width: 90em) {
+  .bgImg .top {
+    top: -22.5rem;
+    left: -17.1875rem;
+  }
+}
+
+@media (max-width: 78.125em) {
+  .bgImg .top {
+    top: -27.5rem;
+    left: -21.875rem;
+  }
+}
+
+@media (max-width: 64em) {
+  .bgImg .top {
+    top: -31.25rem;
+    left: -28.125rem;
+  }
+}
+
+@media (max-width: 45.5em) {
+  .bgImg .top {
+    top: -31.875rem;
+    left: -34.375rem;
+  }
+}
+
+@media (max-width: 40em) {
+  .bgImg .top {
+    top: -360px;
+    left: -275px;
+  }
+}
+
 .bgImg .bot {
   bottom: -18.75rem;
   right: -10.9375rem;
+}
+
+@media (max-width: 90em) {
+  .bgImg .bot {
+    bottom: -22.5rem;
+    right: -17.1875rem;
+  }
+}
+
+@media (max-width: 78.125em) {
+  .bgImg .bot {
+    bottom: -27.5rem;
+    right: -21.875rem;
+  }
+}
+
+@media (max-width: 64em) {
+  .bgImg .bot {
+    bottom: -31.25rem;
+    right: -28.125rem;
+  }
+}
+
+@media (max-width: 45.5em) {
+  .bgImg .bot {
+    bottom: -31.875rem;
+    right: -34.375rem;
+  }
+}
+
+@media (max-width: 40em) {
+  .bgImg .bot {
+    bottom: -28.75rem;
+    right: -17.1875rem;
+  }
 }
 
 .card {
@@ -122,6 +192,13 @@ body {
           transform: translateY(100%);
   -webkit-transition: .4s;
   transition: .4s;
+}
+
+@media (max-width: 64em) {
+  .attribution {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
 }
 
 .attribution:hover {
