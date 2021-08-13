@@ -134,7 +134,7 @@ body {
 }
 
 .card__header {
-  background-image: url(/dist/images/bg-pattern-card.svg);
+  background-image: url(./../../dist/images/bg-pattern-card.svg);
   height: 9.375rem;
 }
 
